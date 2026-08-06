@@ -1,16 +1,25 @@
 {
-  "name": "a3",
+  "name": "assignment3",
   "version": "1.0.0",
-  "description": "",
+  "description": "this is ms assignment #karim",
+  "keywords": [],
+  "homepage": "https://github.com/KarimOmarShawky/Karim-Omar_C48_mon-thurs_8-12_online_assignment3_01224019569#readme",
+  "bugs": {
+    "url": "https://github.com/KarimOmarShawky/Karim-Omar_C48_mon-thurs_8-12_online_assignment3_01224019569/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarimOmarShawky/Karim-Omar_C48_mon-thurs_8-12_online_assignment3_01224019569.git"
+  },
+  "license": "ISC",
+  "author": "Karim Omar",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "express": "^5.2.1"
-  }
+  },
+  "devDependencies": {}
 }
