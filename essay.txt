@@ -1,0 +1,21 @@
+1. Event loop is a listener checks if the call stack empty to enter ready tasks of task queue 
+
+2. Libuv handles and responsible about tasks which takes time like asynchronous tasks.
+3. Node.js handles uses libuv to handle asynchronous operations. Depending on the operation, libuv may use OS or thread pool.
+
+4. Call stack one single thread place wich executes the code
+
+Event queue is a place which the ready call backs stay in it untill the call stack is empty
+
+Event loop is a listener checks if the call stack empty to enter ready tasks of task queue 
+ASYNC -> THREAD POOL
+when it finishes 
+CB -> EVENT QUEUE 
+when call stack is empty
+EVENT LOOP PUSHES CB IN CALL STACK 
+
+
+5. Thread pool which libuv handles some asynchronous tasks in it and we can customise its threads by
+$env:UV_THREADPOOL_SIZE = x
+
+6. Blocking code executes on the Call Stack and blocks the Event Loop until it finishes. Non-blocking I/O operations are handled asynchronously by Node.js through libuv.
