@@ -16,7 +16,7 @@
   "type": "commonjs",
   "main": "index.js",
   "bonus" : "bonus.js",
-  "essay" : "essay.txt"
+  "essay" : "essay.txt",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
